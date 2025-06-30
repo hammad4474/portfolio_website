@@ -522,14 +522,15 @@ class HomeScreen extends StatelessWidget {
       {
         'image': 'assets/images/eye-doctor-pro.png',
         'title': 'Eye Doctor Pro',
-        'link': 'https://github.com/hammad4474/eyedoctorpro',
+        'link': 'https://github.com/hammad4474/eyedoctor_pro',
         'description':
             'Deep learning app with AI chatbot for pink eye detection and diagnosis using advanced image recognition.',
       },
       {
         'image': 'assets/images/2Let.png',
         'title': '2let App',
-        'link': 'https://play.google.com/store/apps/details?id=com.2let.app',
+        'link':
+            'https://play.google.com/store/apps/details?id=com.tolet.app&hl=en',
         'description':
             'Property marketplace on Play Store where tenants and owners can buy, sell, and rent properties seamlessly.',
       },
