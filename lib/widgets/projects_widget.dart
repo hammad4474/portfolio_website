@@ -20,7 +20,7 @@ class ProjectCard extends StatelessWidget {
   });
 
   Future<void> _launchProject() async {
-    final url = Uri.parse(projectLink);
+    final url = Uri.parse(projectLink); 
     if (await canLaunchUrl(url)) {
       await launchUrl(url, mode: LaunchMode.externalApplication);
     }
