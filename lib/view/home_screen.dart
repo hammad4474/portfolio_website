@@ -537,21 +537,21 @@ class HomeScreen extends StatelessWidget {
       {
         'image': 'assets/images/weather_app.png',
         'title': 'Weather App',
-        'link': 'https://github.com/hammad4474/weatherapp',
+        'link': 'https://github.com/hammad4474/weather_app',
         'description':
             'Global weather application showing real-time weather conditions and forecasts for different countries worldwide.',
       },
       {
         'image': 'assets/images/alarm-clock.png',
         'title': 'Smart Alarm Clock',
-        'link': 'https://github.com/hammad4474/smartalarm',
+        'link': 'https://github.com/hammad4474/alarm_clock_clean',
         'description':
             'Intelligent alarm clock app with customizable alarms, snooze features, and beautiful display interface.',
       },
       {
         'image': 'assets/images/car-rentel.png',
         'title': 'Car Rental App',
-        'link': 'https://github.com/hammad4474/carrental',
+        'link': 'https://github.com/hammad4474/car_rental_app',
         'description':
             'Car rental platform with Google Maps integration where users can browse and rent different vehicles.',
       },
