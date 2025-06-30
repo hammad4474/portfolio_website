@@ -56,7 +56,7 @@ class ProjectCard extends StatelessWidget {
               topLeft: Radius.circular(16),
               topRight: Radius.circular(16),
             ),
-            child: Container(
+            child: SizedBox(
               width: double.infinity,
               height: 220,
               child: Image.asset(

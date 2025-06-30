@@ -2,26 +2,26 @@
   "version": 2,
   "name": "hammad-portfolio",
   "public": true,
-  "routes": [
+  "rewrites": [
     {
-      "src": "/canvaskit/(.*)",
-      "dest": "/canvaskit/$1"
+      "source": "/canvaskit/(.*)",
+      "destination": "/canvaskit/$1"
     },
     {
-      "src": "/assets/(.*)",
-      "dest": "/assets/$1"
+      "source": "/assets/(.*)",
+      "destination": "/assets/$1"
     },
     {
-      "src": "/icons/(.*)",
-      "dest": "/icons/$1"
+      "source": "/icons/(.*)",
+      "destination": "/icons/$1"
     },
     {
-      "src": "/(.*\\.(js|css|png|jpg|jpeg|gif|svg|ico|woff|woff2|ttf|eot|json))",
-      "dest": "/$1"
+      "source": "/(.*\\.(js|css|png|jpg|jpeg|gif|svg|ico|woff|woff2|ttf|eot|json))",
+      "destination": "/$1"
     },
     {
-      "src": "/(.*)",
-      "dest": "/index.html"
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
   ],
   "headers": [

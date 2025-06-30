@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:get/get.dart';
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:portfolio_website/viewmodel/image_animation_controller.dart';
@@ -10,7 +9,6 @@ import 'package:portfolio_website/widgets/skill_card.dart';
 import 'package:portfolio_website/widgets/whatsapp_button.dart';
 import 'package:portfolio_website/widgets/theme_toggle.dart';
 import 'package:portfolio_website/viewmodel/theme_controller.dart';
-import 'package:portfolio_website/viewmodel/skills_animation_controller.dart';
 import 'package:portfolio_website/viewmodel/responsive_controller.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 

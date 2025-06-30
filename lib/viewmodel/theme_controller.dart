@@ -55,11 +55,9 @@ class ThemeController extends GetxController {
           primary: Color(0xff6726f2),
           secondary: Color(0xff6726f2),
           surface: Color(0xFF2d2d2d),
-          background: Color(0xFF1a1a1a),
           onPrimary: Colors.white,
           onSecondary: Colors.white,
           onSurface: Colors.white,
-          onBackground: Colors.white,
         ),
         textTheme: TextTheme(
           displayLarge: TextStyle(fontFamily: 'Poppins', color: Colors.white),
